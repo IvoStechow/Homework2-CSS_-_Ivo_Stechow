@@ -1,0 +1,122 @@
+
+/* Style definitions for the body */
+body {
+  font-family: Arial, sans-serif; 
+  font-size: 18px; 
+  background-color: #eeeecb; 
+}
+
+/* Style definitions for the header */
+header {
+  background-color: #bebab5; 
+  font-size: 22px; 
+  padding: 1px; 
+}
+
+/* Style definitions for the navigation area within the header */
+nav {
+  color:#121082; 
+  display: inline-block; 
+  width: 80%; 
+  padding-left: 50px;
+}
+
+/* Style definitions for the image/s within the navigation */
+nav img {  
+  width: 13%; 
+  padding-top: 10px;
+  padding-left: 90px;
+  padding-bottom: 60px;
+}
+
+/* Style definitions for the links within the navigation */
+nav a {
+  padding: 1px 1px; 
+  text-decoration: underline; 
+}
+
+/* Style definitions for the unordered list (structure of navigation menu) */
+ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  width: 100%;
+  list-style-type: none;
+  align-items: center;
+}
+
+/* Style definitions for the list items of the ul */
+li {
+  display: flex; /* Display type of the list items, ...these here are flexible */
+  flex-wrap: wrap; /* when the screen is reduced and there is not enough space far all elements, some elements move to the next line and are not squeezed together */
+  justify-content: space-evenly; /* the space between the elements will/is left evenly */
+}
+
+/* Style definitions for links on the current page */
+.current {
+  font-weight: 900;
+}
+
+/* Style definitions for the h1 heading */
+h1 {
+  text-align: center; 
+  font-family:Georgia, 'Times New Roman', Times, serif, sans-serif; 
+  color: #121082; 
+  font-size: 42px; 
+  padding: 1px; 
+}
+
+/* Style definitions for the paragraphs */
+p {
+  line-height: 1.6; 
+}
+
+/* Style definitions for the main area */
+main {
+  min-height: 100px;
+  background-color: #d8d81f; 
+  font-size: 18px; 
+  padding: 5px; 
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+/* Style definitions for the grid-container */
+.grid-container {
+  display: grid;
+  grid-template-columns: 40% 40%;
+  justify-content: space-evenly;
+  align-items: center;
+  row-gap: 20px;
+  column-gap: 20px;
+  background-color: #d8d81f;
+  padding: 10px;
+}
+
+/* Style definitions for the images within the grid-container */
+.grid-container img {  
+  width: 100%; 
+}
+
+/* Style definitions for the flex-container */
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: stretch;
+  background-color: #d8d81f;
+  padding: 10px;
+}
+
+/* Style definitions for the footer*/
+footer {
+  background-color: #1a14ba; 
+  color: white; 
+  padding: 5px 10px; 
+}
+
+/* Style definitions for the links within the footer */
+footer a {
+  display: inline-block; 
+  color: #d8d81f; 
+}
